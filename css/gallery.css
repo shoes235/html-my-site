@@ -179,14 +179,14 @@
   #img_text{
     color: black;
     position: relative;
-    top: -4%;
+    top: 0;
   }
   #img_text_box{
-    position: absolute;
-    padding: 1px 30%;
+    position: relative;
+    padding: 1px 10%;
     background-color: black;
     margin: auto;
-    left: 270px;
+    left: 0px;
     margin-top: -25px;
     text-align: center;
   }
