@@ -12,3 +12,7 @@ button{
     position: relative;
     right: 70px;
 }
+#comment_list{
+    position: relative;
+    margin-left: 20px;
+}
