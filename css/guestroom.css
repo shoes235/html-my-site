@@ -16,3 +16,8 @@ button{
     position: relative;
     margin-left: 20px;
 }
+#time_list{
+    position: relative;
+    margin: 20px;
+    color: black; opacity: 0.5;
+}
