@@ -63,17 +63,16 @@
             <div class="sunday">26</div> 27 28 29 30
         </div>
     <span id = "news"><strong>업데이트 소식</strong></span>
-    <br><br><div class="mt-memo"><strong>Miniroom</strong></div>
+    <br><br><div class="mt-memo"><strong>방명록</strong></div>
+    <div id="comment_list"></div>
     <!--진행상황-->
 </div>
     <section id="guestbook">
-        <h1>방명록</h1>
-        <form onsubmit="add_coment();return false">
+        <form onsubmit="add_comment();return false">
             <textarea id="comment" placeholder="방명록을 작성해주세요."></textarea><br>
             <button type="submit">작성완료</button>
             <button type="submit">지우기</button>
         </form>
-        <div id="comment_list"></div>
     </section>
     </div>
 </div>
